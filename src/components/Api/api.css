@@ -1,0 +1,29 @@
+.apicomponent {
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén uno debajo del otro */
+    align-items: center; /* Para centrar los elementos horizontalmente */
+    justify-content: center; /* Para centrar los elementos verticalmente */
+    text-align: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.weather {
+    background-color: var(--container-color);
+    padding: var(--mb-2);
+    border: 1px solid var(--text-color);
+    border-radius: var(--mb-1);
+    width: 100%;
+    max-width: 500px; /* Ajusta el ancho máximo según tus preferencias */
+}
+
+.weather h3 {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+
+.weather p {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    margin-bottom: var(--mb-0-5);
+}
